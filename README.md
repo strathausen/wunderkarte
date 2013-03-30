@@ -23,3 +23,6 @@ In order to reduce the vertical space _after_ a line, use the shortcut
 ```
 
 Place it _before_ the line that you want it to have reduced vertical space!
+
+Thanks to <a href="http://www.theleagueofmoveabletype.com/">The League of Movable Type</a> for their open source font
+<a href="http://www.theleagueofmoveabletype.com/chunk">Chunk</a> that's being used in this example.
