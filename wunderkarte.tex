@@ -1,0 +1,38 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[paperheight=24.8in]{geometry}
+% Nice color names
+\usepackage[usenames,dvipsnames]{xcolor}
+% Font encoding of the custom font
+\usepackage[T1]{fontenc}
+% Used for the wundering and fitting of the text
+\usepackage{graphics}
+% No page numbers
+\thispagestyle{empty}
+% Stretch everything to page width
+\newcommand{\wunder}[1]{\resizebox{\textwidth}{!}{#1}}
+% Color shorthand
+\newcommand{\blue}[1]{{\color{MidnightBlue} #1}}
+% Fine tuning of vertical space
+\newcommand{\vsp}[1]{\vspace*{#1\baselineskip}}
+\begin{document}
+\noindent
+\usefont{T1}{custom}{m}{n}
+\color{Bittersweet}
+\wunder{Now look at \blue{that!}}
+\vsp{-.3}
+\wunder{A \blue{beautiful} minimalistic style}
+\vsp{-.8}
+\wunder{Long \blue{stretching}}
+\vsp{-.5}
+\wunder{Typography}
+\wunder{That also works \blue{well} on}
+\wunder{BIG LETTERS}
+\wunder{\blue{All} over the \blue{entire} line!}
+\vsp{-.4}
+\wunder{With fine tuning of}
+\vsp{-.5}
+\wunder{\blue{Vertical} Space}
+\vsp{-.6}
+\wunder{Presented by the \blue{\LaTeX}}
+\wunder{\blue{Typesetting} system}
+\end{document}
